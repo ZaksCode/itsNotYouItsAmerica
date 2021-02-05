@@ -3162,6 +3162,14 @@ fieldset:disabled a.btn {
   width: 100%;
 }
 
+/* .clearfix:.newPostButton{
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+} */
+
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }
