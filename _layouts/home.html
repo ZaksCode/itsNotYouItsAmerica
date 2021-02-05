@@ -48,7 +48,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
           </p>
         </article>
 
@@ -59,6 +59,11 @@ layout: default
         <!-- Pager -->
         <div class="clearfix">
           <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+        </div>
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary newPost float-right" id="newPost" href="{{"/newPost" | relative_url }}">Make A Post &rarr;</a>
         </div>
 
       </div>
