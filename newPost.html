@@ -1,6 +1,9 @@
 ---
 layout: page
-background: '/img/bg-contact.jpg'
+title: Make New Post Below
+description: Your contributions are very much appreciated!
+background: "/img/bg-contact.jpg"
+form: true
 ---
 <!DOCTYPE html>
 
@@ -23,7 +26,7 @@ background: '/img/bg-contact.jpg'
 
   <link rel="stylesheet" href="/itsNotYouItsAmerica/assets/vendor/bootstrap/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="/itsNotYouItsAmerica/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/itsnotyouitsamerica/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/itsnotyouitsamerica/assets/main.css">
   <link rel="canonical" href="https://startbootstrap.github.io/startbootstrap-clean-blog-jekyll/contact.html">
@@ -32,37 +35,10 @@ background: '/img/bg-contact.jpg'
 </head>
 
 
-<body>
-
-  <!-- Navigation -->
-{% include navbar.html %}
-{% include scripts.html %}
 
 
-  <!-- Page Header -->
+<p>Fill in your post's title and body below, your name is optional so leaving it blank will let me know you want to post anonymously. Posts will be reviewed for hate speech before being posted, please allow 24 hours for this process.</p>
 
-<header class="masthead" style="background-image: url('/itsnotyouitsamerica/img/bg-contact.jpg')">
-
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>Make New Post Below</h1>
-
-            <span class="subheading">Your contributions are very much appreciated!</span>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        <p>Fill in your post's title and body below, your name is optional so leaving it blank will let me know you want to post anonymously. Posts will be reviewed for hate speech before being posted, please allow 24 hours for this process.</p>
 <form name="sentMessage" action="https://formspree.io/f/mleovrgl" method="POST" id="newpostForm" novalidate>
   <div class="control-group">
     <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -91,58 +67,3 @@ background: '/img/bg-contact.jpg'
     <button type="submit" class="btn btn-primary" id="sendPostButton">Submit for review</button>
   </div>
 </form>
-
-
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Footer -->
-
-<hr>
-
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-
-          <li class="list-inline-item">
-            <a href="mailto:mleovrgl">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-
-
-
-
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/sakaviye-abdisalan-b14362110">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-
-
-          <li class="list-inline-item">
-            <a href="https://github.com/ZaksCode">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-
-
-        </ul>
-        <p class="copyright text-muted">Copyright &copy; Zak Abdisalan 2021</p>
-      </div>
-    </div>
-  </div>
-</footer>
