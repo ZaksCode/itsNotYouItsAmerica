@@ -1,9 +1,9 @@
 title:              It's Not You, It's America
 email:              mleovrgl
-description:        Help validate people's struggles by shining light on the real problem, America
+description:        "Help validate people's struggles by shining light on the real problem: America/Society"
 author:             Zak Abdisalan
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+baseurl:            "/itsNotYouItsAmerica"
+url:                "https://ZaksCode.github.io"
 
 # Social Profiles
 twitter_username:
